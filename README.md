@@ -1,0 +1,2 @@
+# ResourcesEater
+Resource exhaustation program
