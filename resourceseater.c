@@ -18,18 +18,11 @@ int main(int argc, char* argv[argc+1])
 
 	pthread_t pthread;
 
-	for(size_t i = 0; i < 3; i++)
-	{
-
-		pthread_create(&pthread, NULL, eatAll, (void*)argv[0]);
-		
-	}
-
 	while(1)
 	{
 
-		pause();
-
+		pthread_create(&pthread, NULL, eatAll, (void*)argv[0]);
+	
 	}
 
 	return EXIT_SUCCESS;
@@ -66,6 +59,8 @@ void* eatAll(void* varg)
 	{
 
 		char* args[] = {name, NULL};
+
+		printf("I am about to multiplicate! I need friends\n");
 
 		// Make copy
 		if(execv(args[0], args) == 0)
