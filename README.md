@@ -19,5 +19,5 @@ This program was developed with educational and self learning purposes only.
 
 ---
 
-Note: This code, which resambles a ForkBomb, was generated withour prior knowlede nor an example of a forkbomb, so it could possible have great improvements. 
+Note: This code, which resambles a ForkBomb, was generated without prior knowledge nor an example of a forkbomb, so it could possible have great improvements. 
 If so, please let me know any considerations in order to improve myself. 
