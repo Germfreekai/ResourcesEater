@@ -18,6 +18,10 @@ This program was developed with educational and self learning purposes only.
 * I shall not be held liable on any damage caused by a copy of this code.
 
 ---
+---
+
+> In order to succesfully compile and execute this code, use flag _lpthread_
+>> Example: gcc -o randomName resourceseater.c -lpthread
 
 Note: This code, which resambles a ForkBomb, was generated without prior knowledge nor an example of a forkbomb, so it could possible have great improvements. 
 If so, please let me know any considerations in order to improve myself. 
